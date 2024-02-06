@@ -37,6 +37,7 @@ elementoFormulario.addEventListener("submit", function (event) {
     tipoTransacao: tipoTransacao,
     valor: valor,
     data: data,
+    isNova: true,
   };
 
   console.log(novaTransacao);
